@@ -1,0 +1,162 @@
+####
+#### Hobo Translation
+####
+de:
+  hobo:
+    # hobos default pages translations
+    page:
+      index:
+        title: "{{model}} Übersicht"
+        heading: "{{model}} Übersicht"
+
+      new:
+        title: "Neues {{model}}"
+        heading: "Neues {{model}}"
+
+      show:
+        title: "{{model}}"
+        heading: "{{model}}"
+        back_link: "Zurück"
+        edit_link: "{{model}} ändern"
+        new_link: "Neues {{model}}"
+        add_form_heading: "{{model}} hinzufügen"
+
+      edit:
+        title: "{{model}} ändern"
+        heading: "{{model}} ändern"
+
+      index_for_owner:
+        title: "{{model}}s für"
+        heading:
+          your: "Ihre {{model}}s"
+          other: "{{model}}s"
+        subheading: "Für:"
+
+      new_for_owner:
+        title: "Neues {{model}} für"
+        heading: "Neues {{model}}"
+        subheading: "Für:"
+          
+      login:
+        title: "Anmelden"
+        heading: "Anmelden"
+        email: "E-Mail-Adresse"
+        password: "Kennwort"
+        remember_me: "Dauerhaft anmelden"
+        login: "Anmelden"
+        signup: "Registrieren"
+        forgot_password: "Kennwort vergessen?"
+
+      signup:
+        title: "Registrierung"
+        heading: "Neuen User registrieren"
+  
+      forgot_password:
+        title: "Kennwort vergessen?"
+        heading: "Kennwort vergessen?"
+        text: "Geben Sie jene E-Mail-Adresse an, mit der Sie sich auf diese Website registriert haben. 
+               Wir senden Ihnen dann eine E-Mail zu, die einen Link zum Zurücksetzen des Kennworts beinhaltet."
+        email: "E-Mail-Adresse"
+        send: "Absenden"
+
+      forgot_password_sent:
+        title: "Kennwort vergessen - E-Mail wurde versandt"
+        heading: "Kennwort vergessen - E-Mail wurde versandt"
+        text: "Die E-Mail mit dem Link zum Zurücksetzen des Kennworts wurde an {{email}} versandt. Schauen Sie bitte in Ihren Spamordner, fallse Sie diese E-Mail nicht bekommen sollten."
+
+      account_disabled:
+        title: "Benutzerkonto nicht gefunden"
+        heading: "Benutzerkonto nicht gefunden"
+        text: "Zur angegebenen E-Mail-Adresse gibt es kein Benutzerkonto. Bitte überprüfen Sie die E-Mail-Adresse."
+
+    # hobos default action translation
+    action:
+      new: "Neu"
+      create: "Erstellen"
+      previous: "Zurück"
+      next: "Weiter"
+      add: "Hinzufügen"
+      more: "Mehr"
+      delete: "Lösche {{model}}"
+      save: "Speichern"
+      cancel: "Abbrechen"
+      edit: "Ändere {{model}}"
+      back: "Zurück zu"
+      send: "Absenden"
+      remove: "Entfernen"
+      signup: "Registrieren"
+      login: "Anmelden"
+      logout: "Abmelden"
+      logged_in_as: "Angemeldet als {{name}}"
+      account: "Benutzerkonto"
+          
+    # hobos default message translation  
+    messages:
+      create:
+        success: "{{model}} wurde erfolgreich erstellt"
+        error: "{{model}} konnte nicht erstellt werden.\n{{errors}}"
+      creator:
+        error: "Konnte creator {{name}} nicht vollenden.\n{{errors}}"
+      transition:
+        error: "Konnte transition {{name}} nicht vollenden.\n{{errors}}"
+      update:
+        no_attribute_error: "No update specified in params"
+        success: "Die Änderungen an {{model}} wurden gespeichert"
+        error: "Die Änderungen konnten nicht gespeichert werden.\n{{errors}}"
+      destroy:
+        success: "{{model}} wurde gelöscht"
+      signup: 
+        success: "Danke für Ihre Registrierung!"
+        must_activate: "Sie müssen Ihr Benutzerkonto noch aktivieren. Bitte schauen Sie in Ihr E-Mail-Postfach."
+      login: 
+        success: "Sie haben sich angemeldet."
+        error: "You did not provide a valid userid ({{login}}) and password!"
+      logout: "Sie haben sich abgemeldet."
+      reset_password: "Ihr Kennwort wurde zurückgesetzt."
+      permission_denied: "Zugriff verweigert"
+      not_found: "The page you requested cannot be found."
+      unauthenticated: "Couldn't authenticate you"
+      current_password_is_not_correct: "ist nicht korrekt"
+      you_are_site_admin: "Sie sind jetzt der Administrator der Website"
+      you_signed_up: "Sie haben sich registriert"
+      no: "Kein {{model}} verfügbar."
+      confirm: "Sind Sie sich sicher?"
+        
+    # hobos default collection translation
+    collection:
+      count:
+        zero: "Keine {{model}}s"
+        one: "Derzeit gibt es nur ein einziges {{model}}"
+        other: "Derzeit gibt es {{count}} {{model}}s"
+      heading:
+        your: "Ihre {{model}}s"
+        other: "{{model}}s"
+      add_form_heading: "{{a_or_an}} {{model}} hinzufügen"
+      empty_message: "Keine registrierten Beziehungen"
+            
+    # hobos form translation
+    form:
+      new:
+        heading: "Neues {{model}}"
+      error:
+        heading: "Diese Fehler müssen korrigiert werden:"
+
+    # hobo support
+    support:
+      or: "oder"
+      a: "ein"
+      an: "ein"
+    
+    table_plus:
+      search: "Suche"
+      empty: "Keine {{model}} gefunden"
+      
+    live_search:
+      label: "Suche" 
+      results_label: "Suchergebnis"
+      close_button: "schließen"
+      more: "Mehr"
+      no_results: "Die Suche lieferte keine Ergebnisse."
+
+    dev_user_changer:
+      guest: "Gast"
